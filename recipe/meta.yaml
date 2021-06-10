@@ -1,5 +1,5 @@
 {% set name = "map_parallel" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/map-parallel-{{ version }}.tar.gz
-  sha256: ea6524fb1f09af17ea2d5e8d3957ad130384bcd3bff2606b3830ea369cc2b264
+  sha256: 9bcf4390c4e508f6e028217164f92cd1ccde73f33ea412064cf9dbd115491ec2
 
 build:
   number: 0
